@@ -4,7 +4,7 @@
  * @Author: tiantian
  * @Date: 2019-09-14 21:00:19
  * @LastEditors: sueRimn
- * @LastEditTime: 2019-09-14 22:41:20
+ * @LastEditTime: 2019-09-14 23:07:09
  */
 
  /* css reset */
@@ -93,4 +93,30 @@ body{
     display: block;
     font-size: .6rem;
     padding-bottom: .2rem;
+}
+/* panel 组件样式 */
+/* Panel 标题 */
+.tt-content .tt-panel-title{
+    height: 1.8rem;
+    line-height: 1.8rem;
+    padding-left: 1rem;
+    color: #aaa;
+    background: #fff;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+/* Panel 内容区 */
+.tt-content .tt-panel-body{
+    position: relative;
+    margin-bottom: .6rem;
+    padding: .6rem 1rem;
+    background: #fff;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.tt-content .tt-panel-body.no-padding{
+    padding: 0;
 }
