@@ -1,0 +1,14 @@
+/*
+ * @Descripttion: 字体图标
+ * @version: 0.0.1
+ * @Author: tiantian
+ * @Date: 2019-09-14 21:21:17
+ * @LastEditors: sueRimn
+ * @LastEditTime: 2019-09-14 21:26:39
+ */
+@import 'https://cdn.bootcss.com/font-awesome/5.10.2/css/all.min.css';
+
+.fa{
+    display: inline-block;
+    text-align: center;
+}

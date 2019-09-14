@@ -1,0 +1,29 @@
+/*
+ * @Descripttion: 公用样式
+ * @version: 0.0.1
+ * @Author: tiantian
+ * @Date: 2019-09-14 21:00:41
+ * @LastEditors: sueRimn
+ * @LastEditTime: 2019-09-14 21:16:05
+ */
+
+html{
+    font-size: 20px;
+}
+ 
+/* 屏幕宽度小于340px时的样式 */
+@media (max-width: 340px){
+
+    html{
+        font-size: 18px;
+    }
+
+}
+
+/* 屏幕宽度大于410px时的样式 */
+@media (min-width: 410px){ 
+    
+    html{
+        font-size: 22px;
+    }    
+}
