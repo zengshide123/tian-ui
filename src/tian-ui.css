@@ -4,7 +4,7 @@
  * @Author: tiantian
  * @Date: 2019-09-14 21:00:19
  * @LastEditors: sueRimn
- * @LastEditTime: 2019-09-14 21:48:49
+ * @LastEditTime: 2019-09-14 22:41:20
  */
 
  /* css reset */
@@ -37,4 +37,60 @@ body{
     background: #f8f8f8;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
+}
+/* 通用头部栏 */
+.tt-header-common{
+    display: flex;
+    line-height: 2.3rem;
+    text-align: center;
+    background: #f8f8f8;
+    font-size: 1rem;
+}
+/* 通用头部栏左侧功能区 */
+.tt-header-common > .left{
+    flex-basis: 3rem;
+    text-align: center;
+    flex-shrink: 0;
+    font-size: .8rem;
+}
+.tt-header-common .fa{
+    font-size: .8rem;
+    width: 1.2rem;
+}
+/* 通用头部栏中间标题区 */
+.tt-header-common > .title{
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* 通用头部栏右侧功能区 */
+.tt-header-common > .right{
+    flex-basis: 3rem;
+    flex-shrink: 0;
+}
+/* 通用导航栏 */
+.tt-navbar-common{
+    display: flex;
+    background: #f8f8f8;
+    text-align: center;
+}
+/* 导航项样式 */
+.tt-navbar-common>.navbar-item{
+    flex: 1;
+    color: #808080;
+}
+/* 被选中的样式 */
+.tt-navbar-common > .navbar-item.active{
+    color: #09BB07;
+}
+/* 导航图标 */
+.tt-navbar-common > .navbar-item > .icon{
+    font-size: 1rem;
+}
+/* 导航名称 */
+.tt-navbar-common > .navbar-item > .name{
+    display: block;
+    font-size: .6rem;
+    padding-bottom: .2rem;
 }
