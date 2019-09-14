@@ -1,0 +1,55 @@
+/*
+ * @Descripttion: 基本布局样式
+ * @version: 0.0.1
+ * @Author: tiantian
+ * @Date: 2019-09-14 21:00:53
+ * @LastEditors: sueRimn
+ * @LastEditTime: 2019-09-14 21:51:15
+ */
+
+/* 头部导航条 */
+.tt-header{
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 640px;
+    height: 2.3rem;
+    top: 0;
+    z-index: 200;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 底部导航栏 */
+.tt-navbar{
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+    height: 2.5rem;
+    border-top: 1px solid #ddd;
+    z-index: 200;
+}
+/* 内容区 */
+.tt-content{
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: auto;
+}
+/* 根据header和navbar自动适应内容区高度 */
+.tt-header ~ .tt-content{
+    padding-top: 2.3rem;
+}
+.tt-navbar ~ .tt-content{
+    padding-bottom: 2.5rem;
+}
+/* 页面蒙版 */
+.tt-mask{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 300;
+}
