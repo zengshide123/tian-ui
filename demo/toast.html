@@ -31,7 +31,7 @@
             document.querySelector('#js-toast-loading').style.display = 'block';
             setTimeout(()=>{
                 document.querySelector('#js-toast-loading').classList.toggle('show');
-            },0)
+            },50)
         }
         document.querySelector('#js-toast-loading').addEventListener('transitionstart',function(){
                 if(this.classList.contains('show')){
@@ -47,7 +47,7 @@
             document.querySelector('#js-toast-success').style.display = 'block';
             setTimeout(()=>{
                 document.querySelector('#js-toast-success').classList.toggle('show');
-            },0)
+            },50)
         }
         document.querySelector('#js-toast-success').addEventListener('transitionstart',function(){
                 if(this.classList.contains('show')){
