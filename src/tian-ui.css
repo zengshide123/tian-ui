@@ -28,6 +28,8 @@
 /* 九宫格组件样式 */
 @import './grid.css';
 
+/* menu组件样式 */
+@import './menu.css';
 /* 登录框 */
 .login-wrap{
     position: fixed;
