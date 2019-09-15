@@ -37,6 +37,9 @@
 /* 加载按钮组件样式 */
 @import './loading.css';
 
+/* 交互提示组件样式 */
+@import './toast.css';
+
 /* 登录框 */
 .login-wrap{
     position: fixed;
