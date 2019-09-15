@@ -6,7 +6,7 @@
 
     使用媒体查询设置不同尺寸屏幕根元素字体大小,布局采用flex结合rem进行弹性适配.
 
-### 2.icon
+### 2.icon组件
 
     项目图标选用字体图标,资源来自于 font-Awesome
 
@@ -24,3 +24,7 @@
 ### 5.panel组件
 
 ### 6.input组件
+
+### 7.radio组件 和 checkbox 组件
+
+### 8.button 组件
