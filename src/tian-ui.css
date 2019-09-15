@@ -25,6 +25,9 @@
 /* 列表组件样式 */
 @import './list.css';
 
+/* 九宫格组件样式 */
+@import './grid.css';
+
 /* 登录框 */
 .login-wrap{
     position: fixed;
