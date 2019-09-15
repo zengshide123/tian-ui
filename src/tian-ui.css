@@ -96,7 +96,7 @@ body{
 }
 /* panel 组件样式 */
 /* Panel 标题 */
-.tt-content .tt-panel-title{
+.tt-panel-title{
     height: 1.8rem;
     line-height: 1.8rem;
     padding-left: 1rem;
@@ -108,7 +108,7 @@ body{
     margin: 0;
 }
 /* Panel 内容区 */
-.tt-content .tt-panel-body{
+ .tt-panel-body{
     position: relative;
     margin-bottom: .6rem;
     padding: .6rem 1rem;
@@ -117,7 +117,7 @@ body{
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
-.tt-content .tt-panel-body.no-padding{
+.tt-panel-body.no-padding{
     padding: 0;
 }
 /* input 表单项 */
@@ -156,4 +156,32 @@ body{
 /* 修复 input[date] 选中时样式 */
 input[type=date]{
     overflow: hidden;
+}
+/* 表单中的清空按钮 */
+.tt-form-item > .tt-form-body > .tt-input-reset{
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    line-height: .8rem;
+    top: 50%;
+    margin-top: -.4rem;
+    right: 1rem;
+    font-size: .6rem;
+    background: #aaa;
+    color: #fff;
+    border-radius: 50%;
+}
+/* 表单中的错误提示按钮 */
+.tt-form-item > .tt-form-body > .tt-input-warning{
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    line-height: .8rem;
+    top: 50%;
+    margin-top: -.4rem;
+    right: 1rem;
+    font-size: .6rem;
+    border-radius: 50%;
+    color: red;
+    border: 1px solid red;
 }
