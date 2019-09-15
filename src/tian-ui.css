@@ -19,6 +19,9 @@
  /* 布局样式 */
  @import './layout.css';
 
+/* 搜索组件样式 */
+@import './search.css';
+
 /* 登录框 */
 .login-wrap{
     position: fixed;
