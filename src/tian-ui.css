@@ -22,6 +22,9 @@
 /* 搜索组件样式 */
 @import './search.css';
 
+/* 列表组件样式 */
+@import './list.css';
+
 /* 登录框 */
 .login-wrap{
     position: fixed;
