@@ -30,6 +30,10 @@
 
 /* menu组件样式 */
 @import './menu.css';
+
+/* modal组件样式 */
+@import './modal.css';
+
 /* 登录框 */
 .login-wrap{
     position: fixed;
