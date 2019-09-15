@@ -34,6 +34,9 @@
 /* modal组件样式 */
 @import './modal.css';
 
+/* 加载按钮组件样式 */
+@import './loading.css';
+
 /* 登录框 */
 .login-wrap{
     position: fixed;

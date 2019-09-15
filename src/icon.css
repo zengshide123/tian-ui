@@ -6,7 +6,8 @@
  * @LastEditors: sueRimn
  * @LastEditTime: 2019-09-14 21:35:10
  */
-@import 'https://cdn.bootcss.com/font-awesome/5.10.2/css/all.min.css';
+/* @import 'https://cdn.bootcss.com/font-awesome/5.10.2/css/all.min.css'; */
+@import 'https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css';
 
 .fa{
     display: inline-block;
@@ -41,3 +42,19 @@
     background: #09BB07;
     color: #fff;
 } */
+/* 垂直方向上振动 */
+.fa-vibrate-y{
+    animation: fa-vibrate-y 1.5s infinite ease-in;
+}
+/* 振动轨迹 */
+@keyframes fa-vibrate-y{
+    0% {
+        transform: translateY(-10%);
+    }
+    50% {
+        transform: translateY(10%);
+    }
+    100% {
+        transform: translateY(-10%);
+    }
+}
