@@ -1,12 +1,3 @@
-/*
- * @Descripttion: 字体图标
- * @version: 0.0.1
- * @Author: tiantian
- * @Date: 2019-09-14 21:21:17
- * @LastEditors: sueRimn
- * @LastEditTime: 2019-09-14 21:35:10
- */
-/* @import 'https://cdn.bootcss.com/font-awesome/5.10.2/css/all.min.css'; */
 @import 'https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css';
 
 .fa{
@@ -30,18 +21,6 @@
     color: #fff;
     border-radius: 50%;
 }
-/* 大图标 */
-/* .fa-check {
-    display: block;
-    margin: 0 auto;
-    width: 1.5rem;
-    height: 1.5rem;
-    line-height: 1.5rem;
-    font-size: 1.0rem;
-    border-radius: 50%;
-    background: #09BB07;
-    color: #fff;
-} */
 /* 垂直方向上振动 */
 .fa-vibrate-y{
     animation: fa-vibrate-y 1.5s infinite ease-in;
