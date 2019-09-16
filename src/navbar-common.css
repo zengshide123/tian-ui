@@ -1,0 +1,25 @@
+/* 通用导航栏 */
+.tt-navbar-common{
+    display: flex;
+    background: #f8f8f8;
+    text-align: center;
+}
+/* 导航项样式 */
+.tt-navbar-common>.navbar-item{
+    flex: 1;
+    color: #808080;
+}
+/* 被选中的样式 */
+.tt-navbar-common > .navbar-item.active{
+    color: #09BB07;
+}
+/* 导航图标 */
+.tt-navbar-common > .navbar-item > .icon{
+    font-size: 1rem;
+}
+/* 导航名称 */
+.tt-navbar-common > .navbar-item > .name{
+    display: block;
+    font-size: .6rem;
+    padding-bottom: .2rem;
+}

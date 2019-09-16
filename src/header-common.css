@@ -1,0 +1,31 @@
+/* 通用头部栏 */
+.tt-header-common{
+    display: flex;
+    line-height: 2.3rem;
+    text-align: center;
+    background: #f8f8f8;
+    font-size: 1rem;
+}
+/* 通用头部栏左侧功能区 */
+.tt-header-common > .left{
+    flex-basis: 3rem;
+    text-align: center;
+    flex-shrink: 0;
+    font-size: .8rem;
+}
+.tt-header-common .fa{
+    font-size: .8rem;
+    width: 1.2rem;
+}
+/* 通用头部栏中间标题区 */
+.tt-header-common > .title{
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* 通用头部栏右侧功能区 */
+.tt-header-common > .right{
+    flex-basis: 3rem;
+    flex-shrink: 0;
+}
