@@ -40,6 +40,9 @@
 /* 交互提示组件样式 */
 @import './toast.css';
 
+/* 弹出菜单组件样式 */
+@import './actionSheet.css';
+
 /* 登录框 */
 .login-wrap{
     position: fixed;
